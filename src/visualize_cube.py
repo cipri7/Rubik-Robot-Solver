@@ -1,8 +1,6 @@
-# From visualize_cube.py
 import pygame
 import json
 import time
-import serial #delete
 import kociemba
 from motor_controller import MotorController  # Import the new class
 

@@ -1,4 +1,3 @@
-# From motor_controller.py
 import serial
 import time
 

@@ -64,7 +64,6 @@ class CubeScanner:
 
     def capture_face(self, color_label):
         """Captures a single face of the Rubik's Cube."""
-
         print(f"Position {color_label} face in view and press SPACE to capture.")
 
         while True:
