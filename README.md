@@ -34,6 +34,7 @@ Before you begin, ensure you have the following:
 3. **Upload motor_solver.c to Arduino**
 
 4. **Build the electronic circuit as in the schematic file**
+5. **Assemble the robot.**
 
 ## Configuration
 
