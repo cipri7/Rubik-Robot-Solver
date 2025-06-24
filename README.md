@@ -10,6 +10,10 @@ Before you begin, ensure you have the following:
 *   **pip** (Python package installer)
 *   **A webcam** connected to your computer.
 *   **An Arduino** connected to your computer.
+*   **6x Nema17 Stepper Motors**
+*   **6x A4988 Drivers**
+*   **6x 100uF Capacitors**
+*   **12V Power Supply**
 *   **A Rubik's Cube**
 
 ## Installation
@@ -26,6 +30,10 @@ Before you begin, ensure you have the following:
     ```bash
     pip install -r requirements.txt
     ```
+
+3. **Upload motor_solver.c to Arduino**
+
+4. **Build the electronic circuit as in the schematic file**
 
 ## Configuration
 
