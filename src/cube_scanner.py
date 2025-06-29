@@ -35,7 +35,6 @@ class CubeScanner:
         size = 24
         gap = 2
 
-        # Centru mai sigur pentru întregul preview
         center_x = frame.shape[1] - 160
         center_y = frame.shape[0] - 160
 
@@ -44,7 +43,7 @@ class CubeScanner:
             'L': (center_x - (size + gap) * 3, center_y),
             'F': (center_x,         center_y),
             'R': (center_x + (size + gap) * 3, center_y),
-            'B': (center_x + (size + gap) * 6, center_y),  # mai apropiat
+            'B': (center_x + (size + gap) * 6, center_y),
             'D': (center_x,         center_y + (size + gap) * 3),
         }
 

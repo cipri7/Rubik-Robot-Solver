@@ -2,11 +2,11 @@ import pygame
 import json
 import time
 import kociemba
-from motor_controller import MotorController  # Import the new class
+from motor_controller import MotorController
 
 # === Configuration ===
 JSON_PATH = "scanned_state.json"
-ARDUINO_PORT = "/dev/cu.usbmodem1101"  # Update as needed
+ARDUINO_PORT = "/dev/cu.usbmodem1101"
 BAUD_RATE = 115200
 WINDOW_WIDTH = 900
 WINDOW_HEIGHT = 600
