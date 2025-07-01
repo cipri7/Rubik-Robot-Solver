@@ -2,6 +2,8 @@
 
 This project solves a Rubik's Cube using a combination of computer vision and robotics. It scans the cube's faces using a camera, determines the cube's state, calculates the solution, and then sends the solution to an Arduino-controlled robot to execute the moves.
 
+The robot in action: https://youtu.be/shVyaf8nSuM?si=lHKmhP8OhFEYzAJg
+
 ## Prerequisites
 
 Before you begin, ensure you have the following:
